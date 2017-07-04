@@ -15,6 +15,7 @@ public class FizzBuzz {
         String result = "";
         for (int i = 1; i <= 100; i++) {
             result += transformer.numberConvert(i);
+            result += "\n";
         }
         return result;
     }
